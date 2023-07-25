@@ -1,0 +1,97 @@
+<!-- Hannah Qin    hqin1551@conestogac.on.ca -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="This is site is about the life and enemy of batman.">
+    <meta name="keywords" content="batman, life, enemy, victims, Joker">
+
+    <title>Life of Batman</title>
+</head>
+<body>
+    <header>
+        <img src="images/batman.png" alt="logo" id="logo">
+        <h1>Gudians of the City</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <h2>Contact us</h2>
+        <form name="contact" id="myform" autocomplete="on">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name</label>
+                <input type="text" required maxlength="15" id="name" name="name" placeholder="Name">
+            
+                <label for="email">Email</label>
+                <input type="email" required maxlength="20" id="email" email="email" placeholder="Email">
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" phone="phone" placeholder="Phone">
+
+                <label for="employment-status">Employment Status:</label>
+                <select id="employment-status" name="employment-status" required>
+                    <option value="">Select Option</option>
+                    <option value="student">Student</option>
+                    <option value="full-time">Employed Full-time</option>
+                    <option value="part-time">Employed Part-time</option>
+                    <option value="retired">Retired</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+            
+            <fieldset>
+                <legend>how did you hear about our site?</legend>
+                <input type="radio" id="social" name="hear" value="social" required>
+                <label for="social">Social Media</label><br>
+             
+                <input type="radio" id="friend" name="hear" value="friend" required>
+                <label for="friend">friend</label><br>
+
+                <input type="radio" id="SEO" name="hear" value="SEO" required>
+                <label for="SEO">Search Engine</label><br>
+
+                <input type="radio" id="other" name="hear" value="other" required>
+                <label for="other">Other</label><br>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Tell Us what you think !</legend>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" placeholder="Please leave your comments here !" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Submit</legend>
+                <label for="robot-checking">I am not a robot: </label>
+                <input type="checkbox" id="robot-checking" name="robot-checking" value="not-robot"><br>
+
+                <input type="submit" value="Submit" id="submit" >
+                <input type="reset" value="Clear" id="reset" >
+            </fieldset>
+
+
+        </form>
+    </main>
+    <aside>
+        <h2>Enemy Lists</h2>
+        <ul>
+            <li>The Joker</li>
+            <li>Harley Quinn</li>
+            <li>Poison Ivy</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy;2023 Hannah Qin 8891551</p>
+    </footer> 
+</body>
+</html>

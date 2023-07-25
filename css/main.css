@@ -1,0 +1,218 @@
+
+body {
+    padding:5px;
+    margin:10px auto;
+    width:100%;
+    max-width:1200px;
+    border:2px solid darkslategrey;
+    border-radius: 1%;
+    font: normal normal normal 12px/1.5 Georgia, sans-serif;
+    font-size: medium;
+}
+
+header, nav, footer {
+    border:1.2px solid darkolivegreen;
+    border-radius: 2%;
+    margin:5px;
+    padding:5px;
+
+}
+
+main {
+    margin:5px;
+    padding:5px;
+    width:68%;
+    float:left;
+}
+
+footer {
+    clear:both;
+}
+
+aside {
+    margin:5px;
+    padding:5px;
+    width: 27%;
+    float:right;
+    
+}
+
+header {
+    background-color: gold;
+
+}
+
+#logo {
+    width: 5%;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px solid darkslategray;
+    border-radius: 2%;
+    padding: 2px;
+    margin:10px;
+    border-radius: 20%;
+    color:gold;
+    background-color: black;
+
+}
+
+
+nav a:hover{
+    color:wheat;
+    background-color:green;
+}
+
+aside ul {
+    list-style: none;
+    line-height: 2.5;
+}
+
+figure {
+    display:block;
+    padding:2px;
+    margin:2px;
+    text-align: center;
+
+}
+
+figure img, iframe {
+    width: 500px; 
+    height:290px;
+    padding:4px;
+    margin:2px;
+    background-color: gold;
+}
+
+main {
+    align-items:center
+}
+
+footer {
+    font-size: smaller;
+    text-align: center;
+    background-color: gold;
+}
+
+input, textarea, select{
+    display:block;
+    width:98%;
+    margin-bottom:5px;
+}
+
+
+#myForm fieldset {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size:medium;
+}
+
+#submit, #reset {
+    padding: 5px;
+    margin-top: 2px;
+    background-color: black; 
+    color: gold;
+    border: 1px white solid;
+    border-radius: 10%;
+    width:48%;
+    display: inline-block;
+}
+
+#submit:hover, #reset:hover {
+    background-color: green; 
+}
+
+fieldset {
+    margin-top: 15px;
+    background-color:wheat;
+}
+
+fieldset legend {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    display:inline-block;
+    width:2%;
+    vertical-align: middle;
+}
+
+#comments {
+    height:100px;
+}
+
+#name:focus {
+    outline: none; 
+    border: 2px solid darkred; 
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+    main{
+        width: 95%;
+        float:none;
+        margin: 5px;
+        padding: 5px;
+                         
+    }
+    aside{
+        width:95%;
+        float:none;
+        margin: 5px;
+        padding: 5px;
+    }
+    header, footer, nav {
+        width:95%
+    }
+    figure img, iframe {
+        width:60%;
+        height:60%;
+    }
+   
+  }
+  
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: pink;
+    }
+    main{
+        width: 95%;
+        float:none;
+        margin: 5px;
+        padding: 5px;
+        
+    }
+    aside{
+        width:95%;
+        float:none;
+        margin: 5px;
+        padding: 5px;
+    }
+    header, footer, nav {
+        width:95%
+    }
+
+    figure img, iframe {
+        width:60%;
+        height:60%;
+    }
+  }
